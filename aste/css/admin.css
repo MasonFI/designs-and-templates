@@ -1,0 +1,905 @@
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 13px;
+	background: #fff;
+}
+
+body, .ui-dialog {
+  font-size: 14px;
+}
+
+.mainWindowBody {
+	margin: 20px 0 0;
+	padding: 0;
+	background: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+.mandatory {
+  color: crimson;
+}
+
+.ui-button:first-letter {
+  text-transform: uppercase;
+}
+
+.label:first-letter {
+  text-transform: uppercase;
+}
+
+.ui-dialog {
+}
+
+.ui-dialog .ui-button {
+  font-size: 12px;
+}
+
+.viewFilter {
+  float: left;
+  max-width: 20%;
+  margin: 0 0 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #fbfbfb;
+  border: 1px solid #dfdfdf;
+  border-bottom: none;
+}
+
+.viewFilter *:first-letter {
+  text-transform: uppercase;
+}
+
+.viewFilter > div {
+	padding: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.viewFilter > div > div:first-child {
+	padding: 0 0 10px 0;
+}
+
+.viewFilter label {
+	margin: 0 0 0 5px;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.viewFilter input {
+	margin: 3px 0 3px;
+}
+
+.dataTables_wrapper .fg-toolbar .toolbar {
+  float: right;
+  padding: 10px;
+  font-size: 11px;
+}
+
+.dataTables_wrapper .fg-toolbar .toolbar .ui-button {
+  padding: 0;
+}
+
+.viivaDataTable tr.active td {
+  background: #fcefa1;
+}
+
+.viivaDataTable td .ui-button-text {
+  font-size: 11px;
+}
+
+.viewDataTable {
+  float: right;
+  max-width: 75%;
+}
+
+input.datepicker {
+  width: 100px;
+}
+
+.ui-tabs-nav {
+  text-transform: capitalize;
+}
+
+.ui-dialog .ui-tabs-nav {
+  height: 1.95em;
+}
+
+.ui-dialog .ui-tabs-anchor {
+  font-size: 0.8em;
+}
+
+.ui-dialog-titlebar {
+  border: none;
+  background: none;
+  height: 12px;
+}
+
+.ui-dialog-title, .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.viivaListBox {
+  overflow: scroll;
+}
+
+.viivaListBox label {
+  font-size: 0.7em;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.dialog h2 {
+  font-size: 1.2em;
+  margin-top: 0.9em;
+  margin-bottom: 0.6em;
+}
+
+.dialog h2:first-letter {
+  text-transform: uppercase;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+  font-size: 12px;
+  padding: 0;
+  border: none;
+  margin-top: 0.2em;
+}
+
+.ui-tabs .ui-tabs-panel {
+	border-top: 1px solid #ccc;
+}
+
+input[type=text], input[type=password], input[type=number], input.datepicker, textarea {
+	margin: 0 0 5px;
+	padding: 5px;
+	border: 1px solid #dfdfdf;
+	color: #333;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.dataTables_length {
+	float: left;
+	padding: 10px;
+}
+
+.dataTables_filter {
+	float: right;
+	padding: 10px;
+}
+
+.dataTables_processing {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+}
+
+.dialog .ui-tabs-panel {
+  position: absolute;
+  height: auto !important;
+  top: 2.6em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.ui-widget-header {
+	border: none;
+	border-radius: none;
+	background: none;
+}
+
+.ui-widget-header label, .ui-widget-header .dataTables_info {
+	padding: 15px;
+	font-size: 12px;
+	color: #555;
+	font-weight: 400;
+}
+
+.ui-widget-header .dataTables_info {
+	float: left;
+}
+
+.ui-widget-header .dataTables_paginate {
+	float: right;
+	padding: 11px;
+}
+
+.ui-widget-header .ui-button {
+  padding: 3px 10px;
+  color: 000;
+  font-size: 11px;
+}
+
+.dialog .label, .dialog .value {
+  display: inline-block;
+}
+
+.dialog hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  clear: both;
+}
+
+.DataTables_sort_wrapper:first-letter {
+  text-transform: capitalize;
+}
+
+.dataTable {
+  width: 100%;
+  max-width: 100%;
+  background: #f8f8f8;
+  border-collapse: collapse;	
+}
+
+.dataTable td {
+	padding: 10px 12px;
+	font-size: 12px;
+	color: #555;
+}
+
+.dataTable tr {
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+
+.dataTable th {
+	padding: 8px 0;
+	font-family: Georgia;
+	font-size: 14px;
+	color: #333;
+	text-align: left;
+	border: none;
+}
+
+.dataTable .odd td {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #dfdfdf;
+	background: #fbfbfb;
+}
+
+.dataTable .even td {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #dfdfdf;
+	background: #f7f7f7;
+}
+
+.dialogTable {
+  width: 100%;
+  max-width: 100%;
+  background: #fff;
+}
+
+.dialogTable td {
+  border-top: solid 1px #ccc;
+  font-size: 12px;
+  min-height: 28px;
+  line-height: 28px;
+  background: #fff;
+}
+
+.dialogTable .label {
+  width: 45%;
+}
+
+.dialogTable .value {
+  width: 54%;
+  text-align: right;
+}
+
+.dialogTable .controls {
+  text-align: right;
+}
+
+.DataTables_sort_icon {
+  float: left;
+}
+
+/* Login dialog */
+
+.ui-dialog .loginDialog {
+	padding: 0 1em;
+	overflow: hidden;
+}
+
+#loginForm {
+	overflow: hidden;
+}
+
+.loginDialog p {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.loginDialog input[type="text"] {
+  float: left;
+  margin-top: 6px;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.loginDialog input[type="password"] {
+  float: right;
+  margin-top: 6px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.loginDialog input[type="submit"] {
+  float: right;
+  margin-top: 12px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+/* Info dialog */
+.infoDialogContent {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  overflow: scroll;
+}
+
+/* Confirm dialog */
+.confirmDialogContent {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  overflow: scroll;
+}
+
+/* Home */
+.mainWindowHeader {
+  padding: 10px 5px;
+}
+
+.mainWindowHeader div:first-letter {
+  text-transform: capitalize;  
+}
+
+.mainWindowControl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 34px;
+  background: #464646;
+  text-align: right;
+  font-size: 11px;
+  color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-bottom: 1px solid #0294b2;
+}
+
+.mainWindowControl > div {
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  border-right: 1px solid #666;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.mainWindowControl > div.last {
+  border: none;
+}
+
+.mainWindowControl > .mainWindowTitle {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+
+/* Profile dialog */
+.profileDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 60px;
+}
+
+.profileDialogContent > div {
+  padding: 5px 0;
+}
+
+.profileDialog .label {
+  float: left;
+  text-align: right;
+  width: 40%;
+}
+
+.profileDialog .value {
+  float: right;
+  width: 58%;
+}
+
+/* Customer dialog */
+.customerDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.customerDialogContent #customerDetails input {
+  width: 220px;
+  height: 25px;
+  margin-bottom: 0;
+}
+
+.customerDialogContent #customerDetails > div {
+  line-height: 25px;
+}
+
+.customerDialogContent #customerDetails button {
+  margin-left: 5px;
+}
+
+.customerDialogContent #customerContact input,
+.customerDialogContent #customerContact select{
+  margin: 0;
+  width: 220px;
+}
+
+.customerDialogContent #customerContact .scrollChild button {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+/* Contact dialog */
+.contactDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 0;
+}
+
+.contactDialogContent .label {
+  float: left;
+  text-align: right;
+  width: 40%;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.contactDialog .inputFields {
+  float: right;
+  width: 58%;
+  font-size: 12px;
+}
+
+.contactDialog input[type="text"], .contactDialog select {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.contactDialog select {
+  margin-top: 5px;
+}
+
+/* Customer selection dialog */
+.customerSelectionDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: scroll;
+}
+
+/* Order dialog */
+.orderDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.orderDialogContent .selectedCustomer {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.orderDialogContent .contactList {
+  margin-bottom: 0.5em;
+}
+
+.orderDialogContent .selectedPackage {
+  margin-bottom: 8px;
+}
+
+.orderDialogContent .configurePackage {
+  margin-left: 5px;
+}
+
+.orderDialogContent .billDetails {
+  background: white;
+}
+
+.orderDialogContent .billDetails h4 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/* Order cancel confirmation dialog */
+.orderCancelConfirmDialog {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  overflow: scroll;
+}
+
+.orderCancelConfirmDialog .label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Products view */
+.productGroupList .viivaListBox {
+  width: 120px;
+  height: 100px;
+}
+
+.productTypeList .viivaListBox {
+  width: 120px;
+  height: 6.1em;
+}
+
+/* Settings view */
+.settingsView {
+  position: static;
+  padding: 0;
+  border: none;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+.settingsView input {
+  font-size: 11px;
+  font-family: inherit;
+}
+
+.settingsView .ui-tabs-nav {
+  position: absolute;
+  left: 10px;
+  font-size: 10px;
+  padding: 2px;
+  width: 90px;
+}
+
+.settingsView .ui-tabs-nav li {
+  clear: left;
+  width: 100%;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  margin: 0 -1px 2px 0;
+}
+
+.settingsView .ui-tabs-nav li a {
+  display: block;
+}
+
+.settingsView .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 0;
+  padding-right: 2px;
+  border-right-width: 1px;
+  border-right-width: 1px;
+  margin: 0 0 2px 0;
+}
+
+.settingsView .ui-tabs-panel {
+  position: absolute;
+  right: 10px;
+  left: 110px;
+}
+
+.settingsView .viewDataTable {
+  right: 0;
+}
+
+.settingsView #settingsUsers .viewDataTable tr {
+  cursor: default;
+}
+
+.settingsView #settingsVAT .viewDataTable {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+.settingsView #settingsVAT .regionVATs {
+  margin-bottom: 20px;
+}
+
+/* Product dialog */
+.productVersionList {
+  position: absolute;
+  border: 1px solid #ddd;
+  top: 0;
+  left: 0;
+  width: 50px;
+  bottom: 0;
+}
+
+.productVersionList ul {
+  font-size: 0.8em;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.productVersionList ul li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.productVersionList ul li.label, .productVersionList ul li.active {
+  font-weight: bold;
+  cursor: default;
+}
+
+.productDialogContent {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  right: 0;
+  bottom: 0;
+}
+
+.productDialog .productFields {
+  overflow: scroll;
+}
+
+.productDialogContent .label {
+  float: left;
+  text-align: right;
+  width: 25%;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.productDialog .inputFields {
+  float: right;
+  width: 73%;
+  font-size: 12px;
+}
+
+.productDialog input[type="text"] {
+  box-sizing: border-box;
+}
+
+.productDialog textarea {
+  width: 100%;
+  height: 80px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.productDialog input[type="number"] {
+  width: 75px;
+}
+
+.productDialog .productDetailsControls {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.productDialog .productDetailsControls .ui-button {
+  margin-left: 0.4em;
+}
+
+.productDialog #productOffers .control {
+  text-align: right;
+}
+
+/* Offer dialog */
+.offerDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 15px;
+  overflow: scroll;
+}
+
+.offerDialog textarea {
+  width: 100%;
+  height: 80px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.offerDialog select {
+  margin-bottom: 5px;
+}
+
+/* Offer selection dialog */
+.offerSelectionDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: scroll;
+}
+
+/* Package dialog */
+.packageDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#packageDetails .label {
+  margin-bottom: 5px;
+}
+
+#packageDetails input[type=text] {
+  width: 400px;
+}
+
+#packageDetails textarea {
+  width: 100%;
+  height: 80px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#packageDetails label {
+  margin-left: 5px;
+}
+
+#packageDetails .controls {
+  margin-top: 20px;
+}
+
+.packageRulesHeader {
+  text-align: right;
+}
+
+.packageRulesHeader .button {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.packageRulesOffers {
+  position: absolute;
+  top: 55px;
+  bottom: 90px;
+  right: 15px;
+  width: 130px;
+}
+
+.packageRulesView {
+  position: absolute;
+  top: 55px;
+  bottom: 10px;
+  left: 15px;
+  right: 160px;
+}
+
+.packageRulesStartOver {
+  position: absolute;
+  bottom: 50px;
+  height: 30px;
+  right: 15px;
+  width: 130px;
+}
+
+.packageRulesSave {
+  position: absolute;
+  bottom: 10px;
+  height: 30px;
+  right: 15px;
+  width: 130px;
+}
+
+.packageDuplicate {
+  position: absolute;
+  font-size: 12px !important;
+  bottom: 5px;
+  right: 65px;
+}
+
+/* Package selection dialog */
+.packageSelectionDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: scroll;
+}
+
+.packageSelectionDialogContent .packageDetails {
+  background: white;
+}
+
+.packageSelectionDialogContent .packageDetails h4 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/* Package configuration dialog */
+.packageConfigurationDialogContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 30px;
+  overflow: scroll;
+}
+
+.packageConfigurationDialogContent label {
+  margin-left: 5px;
+}
+
+.packageConfigurationDialogContent .packageRuleNode {
+  line-height: 20px;
+}
+
+.packageConfigurationDialogContent .offerDetails {
+  margin-left : 20px;
+  margin-bottom: 15px;
+}
+
+/* RuleSelectionDialog */
+.ruleListingBoxContainer {
+  width: 40%;
+}
+
+.selectedRuleListingBoxContainer {
+  float: right;
+}
+
+.unselectedRuleListingBoxContainer {
+  float: left;
+}
+
+.ruleSwitcherButtons {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+/* ViivaTreeView */
+.viivaTreeView div {
+  display: inline-block;
+  cursor: default;
+}
