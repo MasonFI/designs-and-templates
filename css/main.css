@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+@import	url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,700,400);
+
+.chart {
+	width: 100%;
+	min-height: 1px;
+	font-size: 11px;
+}
